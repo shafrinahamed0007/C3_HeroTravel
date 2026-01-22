@@ -13,11 +13,24 @@ img {
     margin: auto;
 }
 
+.btn-primary{
+    border-radius: 8px;
+    background: rgba(255,84,0,1);
+    padding: 5px 20px;
+    border: none;
+    color: white;
+    font-size: 600;
+    cursor:pointer;
+}
 
+
+
+/* Navbar Section */
 nav {
     display: flex;
     justify-content: space-between;
     gap: 10px;
+    padding: 7px 2px;
 }
 
 nav>div {
@@ -42,5 +55,74 @@ nav>div>h1>span {
 }
 
 nav ul{
+   display: flex;
+   gap: 5px;
+   align-items: center;
+   list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #FF5400;
+}
+
+
+/* Banner / Hero */
+
+.banner-section{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 0, 0, 0.096)), url("../Images/Group\ 13\ \(1\)\ \(1\).png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+}
+
+.banner-section >div{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+
    
+}
+
+.banner-section >div >h2{
+    font-weight: 800;
+    font-size: 64px;
+    color: white;
+    text-align: center;
+}
+
+.banner-section >div> p{
+    max-width: 650px;
+    color: white;
+    text-align: center;
+}
+
+.banner-section >div> form{
+    background-color: rgba(255, 255, 255, 0.226);
+    padding: 16px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+   
+
+}
+
+
+.banner-section >div> form input[type = "text"],
+.banner-section >div> form select
+{
+    padding: 16px;
+    border-radius: 18px;
+    background: #fff;
+    display: block;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    
 }
