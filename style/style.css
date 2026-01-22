@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container{
+    max-width: 1250px;
+    margin: auto;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+nav>div {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+nav>div>img {
+    width: 48;
+    height: 56px;
+}
+
+nav>div>h1 {
+    font-weight: 700;
+    font-size: 26px;
+}
+
+nav>div>h1>span {
+    color: #FF5400;
+
+}
+
+nav ul{
+   
+}
