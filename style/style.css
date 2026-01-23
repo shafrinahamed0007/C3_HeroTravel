@@ -217,5 +217,9 @@ nav ul li a {
         gap: 16px;
     }
 
+    .popular-tour-cart{
+        flex-direction: column;
+    }
+
 
 }
