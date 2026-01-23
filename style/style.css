@@ -6,9 +6,9 @@
 
 /* google font */
 .font-mulish {
-  font-family: "Mulish", sans-serif;
-  font-optical-sizing: auto;
-  
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+
 }
 
 
@@ -16,19 +16,19 @@ img {
     max-width: 100%;
 }
 
-.container{
+.container {
     max-width: 1250px;
     margin: auto;
 }
 
-.btn-primary{
+.btn-primary {
     border-radius: 8px;
-    background: rgba(255,84,0,1);
+    background: rgba(255, 84, 0, 1);
     padding: 5px 20px;
     border: none;
     color: white;
     font-size: 600;
-    cursor:pointer;
+    cursor: pointer;
     padding: 14px 35px;
 }
 
@@ -63,21 +63,21 @@ nav>div>h1>span {
 
 }
 
-nav ul{
-   display: flex;
-   gap: 5px;
-   align-items: center;
-   list-style: none;
+nav ul {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    list-style: none;
 }
 
-nav ul li a{
+nav ul li a {
     text-decoration: none;
     color: #FF5400;
 }
 
 
 
-#menu{
+#menu {
     display: none;
     color: #FF5400;
     font-size: 20px;
@@ -87,7 +87,7 @@ nav ul li a{
 
 /* Banner / Hero */
 
-.banner-section{
+.banner-section {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 0, 0, 0.096)), url("../Images/Group\ 13\ \(1\)\ \(1\).png");
     background-repeat: no-repeat;
     background-position: center;
@@ -99,42 +99,41 @@ nav ul li a{
     border-radius: 16px;
 }
 
-.banner-section >div{
+.banner-section>div {
     display: flex;
     flex-direction: column;
-    gap:30px;
+    gap: 30px;
 
-   
+
 }
 
-.banner-section >div >h2{
+.banner-section>div>h2 {
     font-weight: 800;
     font-size: 64px;
     color: white;
     text-align: center;
 }
 
-.banner-section >div> p{
+.banner-section>div>p {
     max-width: 650px;
     color: white;
     text-align: center;
 }
 
-.banner-section >div> form{
+.banner-section>div>form {
     background-color: rgba(255, 255, 255, 0.226);
     padding: 16px;
     border-radius: 8px;
     display: flex;
     justify-content: space-between;
     gap: 10px;
-   
+
 
 }
 
 
-.banner-section >div> form input[type = "text"],
-.banner-section >div> form select
-{
+.banner-section>div>form input[type="text"],
+.banner-section>div>form select {
     padding: 16px;
     border-radius: 18px;
     background: #fff;
@@ -142,63 +141,81 @@ nav ul li a{
     font-size: 16px;
     outline: none;
     border: none;
-    
+
 }
 
 
 /* Popular Tour Section */
 
-.popular-tour{
+.popular-tour {
     margin-top: 100px;
 }
 
-.popular-tour-cart{
+.popular-tour-cart {
     display: flex;
     gap: 50px;
 }
 
-.popular-tour-cart>div h4{
+.popular-tour-cart>div h4 {
     font-size: 40px;
-    
+
     font-weight: 800;
-   
+
     margin-bottom: 25px;
 }
 
-.popular-tour-cart>div p{
-   margin-top: 24px;
-    
+.popular-tour-cart>div p {
+    margin-top: 24px;
+
 }
 
-.popular-tour-cart img{
+.popular-tour-cart img {
     width: 540px;
     height: 440px;
 }
 
-.popular-tour-cart>div button{
+.popular-tour-cart>div button {
     margin-top: 32px;
 }
 
 
 /* Mobile Responsive */
-@media screen and (max-width: 576px){
-    .sm-display-none{
+@media screen and (max-width: 576px) {
+    .sm-display-none {
         display: none;
     }
 
-    .container{
+    .container {
         max-width: 375px;
     }
 
-    .fa-solid{
+
+    #menu {
+        display: block;
         margin-top: 20px;
     }
 
-    #menu{
-        display: block;
+    .banner-section>div {
+        width: 100%;
+        align-items: center;
+
     }
+
+    .banner-section>div>h2 {
+        font-size: 22px;
+
+    }
+
+    .banner-section>div>p {
+
+        width: 300px;
+        text-align: center;
+    }
+
+    .banner-section>div>form{
+        flex-direction: column;
+        gap: 16px;
+    }
+
+
 }
-
-
-
-
