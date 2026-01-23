@@ -76,6 +76,15 @@ nav ul li a{
 }
 
 
+
+#menu{
+    display: none;
+    color: #FF5400;
+    font-size: 20px;
+    display: none;
+}
+
+
 /* Banner / Hero */
 
 .banner-section{
@@ -168,6 +177,26 @@ nav ul li a{
 
 .popular-tour-cart>div button{
     margin-top: 32px;
+}
+
+
+/* Mobile Responsive */
+@media screen and (max-width: 576px){
+    .sm-display-none{
+        display: none;
+    }
+
+    .container{
+        max-width: 375px;
+    }
+
+    .fa-solid{
+        margin-top: 20px;
+    }
+
+    #menu{
+        display: block;
+    }
 }
 
 
