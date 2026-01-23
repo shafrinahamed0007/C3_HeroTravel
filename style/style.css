@@ -415,10 +415,35 @@ nav ul li a {
 
     }
 
-    .choose-us{
+   
+    .choose-us>h4{
+        font-size: 20px;
+        font-weight: 800;
+    }
+
+    .choose-us > p{
+        
+        width: 309px;
+        text-align: center;
+
+    }
+
+    #choose-us-cart{
+        display: flex;
+        flex-direction: column;
+      
+    }
+
+    #choose-us-cart>div{
         display: flex;
         flex-direction: column;
     }
+
+    .cart-design{
+        width: 335px;
+    }
+
+
 
 
 
@@ -451,6 +476,33 @@ nav ul li a {
     .popular-tour-cart>div {
 
         justify-items: center;
+    }
+
+     .choose-us>h4{
+        font-size: 30px;
+        font-weight: 800;
+    }
+
+    .choose-us > p{
+        
+      
+        text-align: center;
+
+    }
+
+    #choose-us-cart{
+        display: flex;
+        flex-direction: column;
+      
+    }
+
+    #choose-us-cart>div{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cart-design{
+        width: 100%;
     }
 
     
