@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+/* google font */
+.font-mulish {
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  
+}
+
+
 img {
     max-width: 100%;
 }
@@ -21,6 +29,7 @@ img {
     color: white;
     font-size: 600;
     cursor:pointer;
+    padding: 14px 35px;
 }
 
 
@@ -126,3 +135,41 @@ nav ul li a{
     border: none;
     
 }
+
+
+/* Popular Tour Section */
+
+.popular-tour{
+    margin-top: 100px;
+}
+
+.popular-tour-cart{
+    display: flex;
+    gap: 50px;
+}
+
+.popular-tour-cart>div h4{
+    font-size: 40px;
+    
+    font-weight: 800;
+   
+    margin-bottom: 25px;
+}
+
+.popular-tour-cart>div p{
+   margin-top: 24px;
+    
+}
+
+.popular-tour-cart img{
+    width: 540px;
+    height: 440px;
+}
+
+.popular-tour-cart>div button{
+    margin-top: 32px;
+}
+
+
+
+
