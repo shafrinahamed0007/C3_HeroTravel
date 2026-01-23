@@ -135,7 +135,7 @@ nav ul li a {
 .banner-section>div>form input[type="text"],
 .banner-section>div>form select {
     padding: 16px;
-    border-radius: 18px;
+    border-radius: 8px;
     background: #fff;
     display: block;
     font-size: 16px;
@@ -178,6 +178,102 @@ nav ul li a {
     margin-top: 32px;
 }
 
+/* Destination Section */
+
+.destination-section{
+    margin: 120px auto;
+    justify-items: center;
+}
+
+.destination-section>h3{
+    font-size: 40px;
+    text-align: center;
+    font-weight: 900;
+    color: #131318;
+}
+
+.destination-section>p{
+    max-width: 643px;
+    text-align: center;
+    margin-top: 24px;
+    color: rgba(19,19,24,00.7);
+
+}
+
+.destination-cart{
+    border: 1px solid red;
+    margin-top: 48px;
+    width: 100%;
+    min-height: 800px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+#cart-1{
+    width: 100%;
+    background-color: green;
+    min-height: 100px;
+    grid-column:span 2;
+}
+
+#cart-2{
+     width: 100%;
+    background-color: red;
+    min-height: 100px;
+     grid-column:span 2;
+}
+
+#cart-3{
+    width: 100%;
+    background-color: orange;
+    min-height: 100px;
+     grid-column:span 1;
+}
+
+#cart-4{
+     width: 100%;
+    background-color: pink;
+    min-height: 100px;
+     grid-column:span 2;
+}
+
+#cart-5{
+     width: 100%;
+    background-color:blue;
+    min-height: 100px;
+     grid-column:span 1;
+}
+
+#cart-6{
+     width: 100%;
+    background-color:blueviolet;
+    min-height: 100px;
+     grid-column:span 1;
+     
+    
+}
+
+#cart-7{
+     width: 100%;
+    background-color:green;
+    min-height: 100px;
+     grid-column:span 3;
+     
+}
+
+#cart-8{
+     width: 100%;
+    background-color:yellow;
+    min-height: 100px;
+}
+
+#cart-9{
+     width: 100%;
+    background-color:red;
+    min-height: 100px;
+}
+
+
 
 /* Mobile Responsive */
 @media screen and (max-width: 576px) {
@@ -219,6 +315,29 @@ nav ul li a {
 
     .popular-tour-cart{
         flex-direction: column;
+    }
+
+    .destination-cart{
+        /* display: grid;
+        grid-template-columns: 1fr; */
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+     
+        
+    }
+
+    #cart-1, 
+    #cart-2,
+    #cart-3,
+    #cart-4,
+    #cart-5,
+    #cart-6,
+    #cart-7
+    {
+       
+        height: 176px;
+      
     }
 
 
