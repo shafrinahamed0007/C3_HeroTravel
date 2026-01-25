@@ -88,7 +88,7 @@ nav ul li a {
 /* Banner / Hero */
 
 .banner-section {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 0, 0, 0.096)), url("../Images/Group\ 13\ \(1\)\ \(1\).png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 0, 0, 0.096)), url("../Images/maldives.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -351,7 +351,7 @@ nav ul li a {
 /* Deals & Discount Section */
 
 .deal-design {
-    
+
     width: 100%;
     min-height: 400px;
     justify-items: center;
@@ -363,20 +363,22 @@ nav ul li a {
 
 }
 
-.deal-design>h4{
+.deal-design>h4 {
     font-size: 40px;
     font-weight: 800;
 }
 
-.deal-design>p{
+.deal-design>p {
     width: 643px;
     text-align: center;
     margin-top: 24px;
     margin-bottom: 48px;
-    
+
 }
 
-.deals-cart-design-1, .deals-cart-design-2, .deals-cart-design-3{
+.deals-cart-design-1,
+.deals-cart-design-2,
+.deals-cart-design-3 {
     background-image: url("../Images/Group\ 39.png");
     background-position: center;
     background-size: cover;
@@ -391,13 +393,13 @@ nav ul li a {
 
 }
 
-.deals-cart-design-2{
+.deals-cart-design-2 {
     background-image: url("../Images/Group\ 40.png");
     justify-content: start;
     padding: 10px;
 }
 
-.under-deal-cart{
+.under-deal-cart {
     background-color: rgba(255, 255, 255, 0.8);
     width: 579px;
     height: 360px;
@@ -408,29 +410,29 @@ nav ul li a {
     padding: 50px;
 }
 
-.deal-content>h4{
+.deal-content>h4 {
     font-size: 24px;
     font-weight: 800;
 }
 
-.deal-content>p{
+.deal-content>p {
     margin-top: 16px;
-    color: rgba(90,90,93,1);
+    color: rgba(90, 90, 93, 1);
 }
 
-.deal-content>h3{
-    color: rgba(255,84,0,1);
+.deal-content>h3 {
+    color: rgba(255, 84, 0, 1);
     margin-top: 16px;
     margin-bottom: 24px;
 
 }
 
-.deal-icon{
+.deal-icon {
     display: flex;
     justify-content: space-between;
 }
 
-.deal-icon div>div{
+.deal-icon div>div {
     display: flex;
     gap: 8px;
 }
@@ -446,7 +448,7 @@ nav ul li a {
     }
 
     .container {
-        max-width: 374px;
+        max-width: 3700px;
         padding: 10px;
     }
 
@@ -531,11 +533,52 @@ nav ul li a {
         width: 335px;
     }
 
+    .deal-design>p {
 
+        width: 310px;
+    }
 
+    .deals-cart-design-1,
+    .deals-cart-design-2,
+    .deals-cart-design-3 {
+        width: 355px;
+        justify-content: center;
+        align-items: end;
+        padding-right: 0px;
+        padding: 16px;
+    }
 
+    .under-deal-cart {
+        width: 303px;
+        gap: 16px;
+        padding: 24px;
+
+    }
+
+    .deal-content>h4 {
+        font-size: 20px;
+    }
+
+    .deal-content>p{
+        font-size: 14px;
+    }
+
+    .deal-content>h3{
+        margin-top: 12px;
+        margin-bottom: 16px;
+    }
+
+    .deal-icon {
+    display: grid;
+    
+}
 
 }
+
+
+
+
+
 
 
 /* Medium Device Responsive */
@@ -592,6 +635,46 @@ nav ul li a {
     .cart-design {
         width: 100%;
     }
+
+    .deal-design>p {
+
+        width: 100%;
+    }
+
+    .deals-cart-design-1,
+    .deals-cart-design-2,
+    .deals-cart-design-3 {
+        width: 100%;
+        justify-content: center;
+        align-items: end;
+        padding-right: 0px;
+        padding: 16px;
+    }
+
+    .under-deal-cart {
+        width: 303px;
+        gap: 16px;
+        padding: 24px;
+
+    }
+
+    .deal-content>h4 {
+        font-size: 20px;
+    }
+
+    .deal-content>p{
+        font-size: 14px;
+    }
+
+    .deal-content>h3{
+        margin-top: 12px;
+        margin-bottom: 16px;
+    }
+
+    .deal-icon {
+    display: grid;
+    
+}
 
 
 
