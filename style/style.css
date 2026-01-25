@@ -351,11 +351,15 @@ nav ul li a {
 /* Deals & Discount Section */
 
 .deal-design {
-    border: 1px solid red;
+    
     width: 100%;
     min-height: 400px;
     justify-items: center;
     margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
 
 }
 
@@ -372,7 +376,7 @@ nav ul li a {
     
 }
 
-.deals-cart-design-1{
+.deals-cart-design-1, .deals-cart-design-2, .deals-cart-design-3{
     background-image: url("../Images/Group\ 39.png");
     background-position: center;
     background-size: cover;
@@ -387,12 +391,38 @@ nav ul li a {
 
 }
 
+.deals-cart-design-2{
+    background-image: url("../Images/Group\ 40.png");
+    justify-content: start;
+    padding: 10px;
+}
+
 .under-deal-cart{
     background-color: rgba(255, 255, 255, 0.8);
     width: 579px;
-    height: 389px;
+    height: 360px;
     border-radius: 16px;
-    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 50px;
+}
+
+.deal-content>h4{
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.deal-content>p{
+    margin-top: 16px;
+    color: rgba(90,90,93,1);
+}
+
+.deal-content>h3{
+    color: rgba(255,84,0,1);
+    margin-top: 16px;
+    margin-bottom: 24px;
+
 }
 
 .deal-icon{
