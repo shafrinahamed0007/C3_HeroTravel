@@ -443,17 +443,18 @@ nav ul li a {
     margin-top: 100px;
     width: 100%;
     height: 450px;
-    border: 1px solid red;
+   
 }
 
 .news-letter-section>div{
     display: flex;
     gap: 24px;
+    
 }
 
 #news-letter-img{
     background-image: url("../Images/newsletter.png");
-    width:672px;
+    width:776px;
     height: 422px;
     background-position: center;
     background-size: cover;
@@ -461,6 +462,7 @@ nav ul li a {
     justify-items: end;
     align-content: end;
     color: white;
+    border-radius: 16px;
     
 }
 
@@ -472,12 +474,54 @@ nav ul li a {
     transform: rotate(-19.64deg);
     margin-right: 10px;
     margin-bottom: 40px;
-    
-    
-
 }
 
+#form{
+    border:1px solid rgba(255,84,0,1) ;
+    width: 474px;
+    height: 422px;
+    padding: 40px;
+    border-radius: 16px;
+}
 
+#form>h4{
+    font-size: 24px;
+    font-weight: 800;
+}
+
+#form>p{
+    margin-top: 16px;
+    margin-bottom: 16px;
+    width: 350px;
+}
+
+#form hr{
+    border: 1px solid rgba(19,19,24,0.1);
+}
+
+.form-section>form{
+    margin-top: 25px;
+    display: -webkit-inline-flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 24px;
+    
+}
+
+.form-section>form input{
+    width: 100%;
+    height: 52px;
+    padding: 16px;
+    border-radius: 8px;
+    border: none;
+    background: rgba(19,19,24,0.05);
+    
+}
+
+.form-section>button{
+    width: 100%;
+    margin-top: 24px;
+}
 
 
 
@@ -490,7 +534,7 @@ nav ul li a {
     }
 
     .container {
-        max-width: 3700px;
+        max-width: 370px;
         padding: 10px;
     }
 
