@@ -524,6 +524,49 @@ nav ul li a {
 }
 
 
+footer{
+    width: 100%;
+    height: 502px;
+    background-color: rgba(19,19,24,0.05);
+    margin: 0 auto;
+    justify-items: center;
+    align-content: center;
+}
+
+.logo{
+    display: flex;
+    gap: 16px;
+}
+
+.logo>h1 span{
+    color: rgba(255,84,0,1);
+    
+}
+
+footer{
+    margin-top: 25px;
+}
+
+footer>p{
+    width: 750px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#footer-social{
+    margin-top: 32px;
+}
+
+footer>hr{
+   border: 1px solid rgba(19, 19, 24, 0.1);
+   width:75%;
+   margin-top: 50px;
+}
+
+#reserved{
+    margin-top: 50px;
+}
+
 
 
 
@@ -665,7 +708,9 @@ nav ul li a {
 }
 
 #news-letter-img{
+    
     width: 335px;
+    height:300px;
 }
 
 #form{
@@ -680,6 +725,14 @@ nav ul li a {
     
     width: 270px;
     font-size: 14px;
+}
+
+footer{
+    margin-top: 250px;
+}
+
+footer>p{
+    width: 287px;
 }
 
 }
@@ -806,6 +859,14 @@ nav ul li a {
     
     width: 270px;
     font-size: 14px;
+}
+
+footer{
+    margin-top: 370px;
+}
+
+footer>p{
+    width: 70%;
 }
 
 
